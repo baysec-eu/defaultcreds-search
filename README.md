@@ -1,5 +1,3 @@
-<img src="https://defaultcreds.vercel.app/images/defaultcreds.png"></img>
-
 # defaultcreds-search
 
 A web search panel for default credentials that includes an API with a comprehensive dataset. The dataset contains information on services, vendors, systems, OT and IoT devices, routers, and more.
