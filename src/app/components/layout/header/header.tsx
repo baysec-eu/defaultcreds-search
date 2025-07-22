@@ -18,7 +18,13 @@ const Header = () => {
       <header className={styles.header}>
         <div className={styles.headerTop}>
           <div className={styles.headerLeft}>
-            <h1 className={styles.logo}><a href="/">CREDSDEFAULT</a></h1>
+            <h1 className={styles.logo}>
+              
+              <a href="https://baysec.eu"> 
+                <img className={styles.baysecLogo} src="/images/logo-darkmode.svg"></img>
+              </a>
+            </h1>
+            <div className={styles.search}>.defaultCredentials()</div>
           </div>
           <div className={styles.headerCenter}>
             <input
@@ -31,7 +37,7 @@ const Header = () => {
             <DownloadCsv onPress={downloadCsv}/>
           </div>
           <div className={styles.headerRight}>
-            <a href="https://github.com/krystianbajno/credsdefault-search">
+            <a href="https://github.com/baysec-eu/defaultcreds-search">
               <img className={styles.githubLogo} src="/images/github-mark-white.svg" />
             </a>
           </div>

@@ -3,16 +3,16 @@ import "@/app/globals.css";
 import ClientLayout from "@/app/components/layout/client-layout";
 
 export const metadata: Metadata = {
-  title: "CREDSDEFAULT - default credentials web search panel.",
-  description: "CREDSDEFAULT is a web search panel for default credentials, including a comprehensive dataset of services, vendors, systems, OT and IoT devices, routers, and more.",
+  title: "Baysec - default credentials web search panel",
+  description: "defaultcreds is a web search panel for default credentials, including a comprehensive dataset of services, vendors, systems, OT and IoT devices, routers, and more.",
   openGraph: {
-    images: 'https://credsdefault.vercel.app/images/credsdefault.png',
+    images: 'https://defaultcreds.vercel.app/images/defaultcreds.png',
   },
   keywords: ['default credentials', 'search', 'dataset', 'security', 'IoT', 'OT', 'routers'],
   authors: [
-    { name: 'Krystian Bajno', url: 'https://github.com/krystianbajno' }, 
+    { name: 'Krystian Bajno', url: 'https://github.com/baysec-eu' }, 
   ],
-  metadataBase: new URL('https://github.com/krystianbajno/credsdefault-search'),
+  metadataBase: new URL('https://github.com/baysec-eu/defaultcreds-search'),
 };
 
 export default function RootLayout({
